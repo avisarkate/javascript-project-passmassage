@@ -1,0 +1,50 @@
+body {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     width: 100vw;
+     height: 100vh;
+      background-color: violet;
+}
+
+.container {
+     display: flex;
+     flex-direction: column;
+     padding: 20px 30px;
+     background-color: darkolivegreen;
+     width: 600px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+#Btn {
+     padding: 10px 15px;
+     color: white;
+     background-color: violet;
+     font-size: large;
+     font-weight: 600;
+     width: fit-content;
+     margin: 10px;
+}
+#massage {
+     width: 300px;
+     height: 40px;
+     padding: 5px;
+     text-align: center;
+     font-size: 20px;
+     border: black;
+     color: black;
+     font-weight: 500;
+}
+.show-hexNumber{
+     color: white;
+      font-size: 28px;
+
+}
+.output{
+     color:  white;
+      font-size: 25px;
+       display: none;
+}
